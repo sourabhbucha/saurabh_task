@@ -1,0 +1,29 @@
+.prop-container{
+    text-align: center;
+}
+
+.prop-subtitle{
+font-family: 'Poppins', sans-serif;
+color: #858596;
+font-weight: 600;
+font-size: 14px;
+line-height:19px;
+width: 190px;
+}
+
+
+@media screen and (max-width: 430px) {
+    .prop-container{
+     width: 50%;
+     text-align: center;
+     padding-bottom: 20px;
+    }
+    .prop-subtitle{
+        font-family: 'Poppins', sans-serif;
+        color: #858596;
+        font-weight: 600;
+        font-size: 10px;
+        width:auto;
+       
+        }
+}

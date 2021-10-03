@@ -1,0 +1,136 @@
+/* top navbar */
+.navbar{
+    height: 72px;
+    background-color: #1F1F2F;
+    border: 1px solid #3A3A53;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.nav-logo{
+font-family: SF Pro Display;
+font-style: italic;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-transform: uppercase;
+
+}
+
+.nav-btn1{
+    background: #2A7AF2;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    height: 28px;
+    
+
+}
+.nav-btn2{
+    border: 0.5px solid #656589;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    height: 28px;
+    color: #FFFFFF;
+    background: transparent;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-btn11{
+    background: #2A7AF2;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    height: 38px;
+    width: 188px;
+    
+
+}
+.nav-btn22{
+    border: 0.5px solid #656589;
+box-sizing: border-box;
+border-radius: 4px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+height: 38px;
+width: 101.78px;
+color: #FFFFFF;
+background: transparent;
+margin-left: 15px;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 770px) {
+    .navbar{
+        height: 72px;
+        background-color: #1F1F2F;
+        border: 1px solid #3A3A53;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    
+}
+
+@media screen and (max-width: 430px){
+    .navbar-btn{
+        display: none;
+    }
+    .navbar{
+        height: 72px;
+        background-color: #1F1F2F;
+        border: 1px solid #3A3A53;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;      
+    }
+}
+
+.navbar-mobileMenu{
+cursor: pointer;
+user-select: none;
+display: none;
+}
+
+.navbar-logo{
+    height: 30px;
+    width: auto;
+}
+@media screen and (max-width: 430px){
+    .navbar-mobileMenu{
+        cursor: pointer;
+        user-select: none;
+        display: block;
+        }        
+
+.navbar-logo{
+    height: 27px;
+    width: auto;
+}
+}
+

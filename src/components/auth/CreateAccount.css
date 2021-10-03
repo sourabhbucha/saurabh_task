@@ -1,0 +1,46 @@
+.createAccount-username{
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-top: 18px;
+}
+/* style={{
+    display: "flex",
+    justifyContent: "space-between",
+    marginTop: "24px",
+  }} */
+
+.createAcc-container{
+    text-align: center;
+    margin: auto;
+    padding: 18px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+@media screen and (max-width: 770px)
+{
+  .createAcc-container{
+      text-align: center;
+      margin: auto;
+      padding: 18px 0px;
+      padding-left: 50px;
+      padding-right: 50px;
+  
+  }
+   
+}
+  @media screen and (max-width: 430px)
+  {
+    .createAcc-container{
+        text-align: center;
+        margin: auto;
+        padding: 18px 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+    }
+     
+  }
+
+

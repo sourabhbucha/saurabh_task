@@ -1,0 +1,88 @@
+.login-outh{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+/* background-color: #fff; */
+}
+
+.login-container{
+background-color: #192337;
+max-width: 477px;
+margin: auto;
+
+}
+
+.loginSignup-Btn{
+background-color: #3b3b59;
+border-radius: 3px;
+border: none;
+height: 39px;
+display: block;
+font-size: 15px;
+font-weight: bold;
+color: white;
+width: 48%;
+cursor: pointer;
+outline: none;
+}
+
+.loginSignup-change{
+display: flex;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+margin-top: 18px;
+
+}
+
+
+@media screen and (max-width: 770px){
+    .login-container{
+        background-color: #192337;
+        width: auto;
+        margin: auto;
+        
+        }
+}
+
+@media screen and (max-width: 430px){
+    .login-outh{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+        }
+        .login-container{
+            background-color: #192337;
+            width: 100%;
+            margin: auto;
+            
+            }  
+
+.loginSignup-Btn{
+    background-color: #3b3b59;
+    border-radius: 3px;
+    border: none;
+    height: 39px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    }
+        .loginSignup-change{
+                    display: flex;
+                    margin: auto;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    margin-top: 18px;
+                    flex-wrap: wrap;
+                    flex-direction: column-reverse;
+                    
+                    }
+            
+}
