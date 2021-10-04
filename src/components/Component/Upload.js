@@ -29,8 +29,12 @@ function Upload() {
                 </div>
                 <div className="upload-grid-2">
                     <input type="text" placeholder="Name Your Design" />
-                    <input type="text" placeholder="Edition" />
-                    <input type="text" placeholder="Category" />
+                    <select>
+                        <option value="C++">Edition</option>
+                    </select>
+                    <select>
+                        <option value="C++">Category</option>
+                    </select>
                     <input type="text" placeholder="dd/mm/yyyy" />
                     <textarea placeholder="Design Desciption" className="wideArea" />
                     <div className="popup-btn">

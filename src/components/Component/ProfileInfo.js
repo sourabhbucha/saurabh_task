@@ -24,15 +24,15 @@ function ProfileInfo() {
                     <h1 className ="Name">Ankit Panda</h1>
                     <p className ="des">Member since 2021</p>
                     <div className="btn-grid">
-                        <a href="" className="btn">SETTINGS</a>
+                        <a href="" className="btn" id="msg">SETTINGS</a>
                         <a href="" className="btn">ADD FRIEND</a>
                     </div>
                 </div>
             </div>
             <div className="grp">
-                <a href="" className="btn-white">NEXT LEVEL UNLOCKED AFTER 100 TRADING</a>
-                <a href="" className="btn-white">AUCTION FEE REDUCED BY 6%</a>
-                <a href="" className="btn-white">YOUR LEVEL: 6</a>
+                <a href="" className="btn-white" id="1">NEXT LEVEL UNLOCKED AFTER 100 TRADING</a>
+                <a href="" className="btn-white" id="2">AUCTION FEE REDUCED BY 6%</a>
+                <a href="" className="btn-white text-blue">YOUR LEVEL: 6</a>
             </div>
             </div>
         </div>
