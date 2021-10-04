@@ -16,9 +16,6 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
       <Link to="/">
         <img src={obtainr} alt="logo" className="navbar-logo" />
       </Link>
-      {/* <h1 className="nav-logo">
-        OBTAIN<span style={{ color: "#61a0fe" }}>R</span>
-      </h1> */}
       <div className="navbar-btn">
         <button className="nav-btn1" onClick={() => createAccModal()}>
           Create Account
