@@ -30,22 +30,6 @@
   border-radius: 4px;
 }
 
-@media only screen and (max-width: 700px) {
-  .ProfileInfo {
-    background: none;
-  }
-  .flex-profile {
-    flex-direction: column;
-  }
-  .Camicon {
-    display: none;
-  }
-  .btn-white {
-    background-color: #1f1f2f;
-    color: #fff;
-  }
-}
-
 .Camicon {
   margin: 10px 1vw auto auto;
   margin-bottom: 10vh;
@@ -101,7 +85,7 @@
   height: 140px;
   background-color: #1f1f2f;
   border: 1px solid #5f5f85;
-  margin-top: 0;
+  margin-top: -1px;
   margin-bottom: 0;
   margin-left: -70px;
   box-sizing: border-box;
@@ -109,6 +93,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 1/1;
 }
 
 .info {
@@ -142,7 +127,7 @@
 
 .btn {
   height: min-content;
-  /* width: min-content; */
+  min-width: max-content;
   padding: 10px;
   background-color: #2a7af2;
   text-decoration: none;
@@ -166,8 +151,37 @@
   padding-right: 20px;
 }
 
+.text-blue{
+  color: #2A7AF2;
+}
+
+@media only screen and (max-width: 700px) {
+  .ProfileInfo {
+    background: none;
+  }
+  .flex-profile {
+    flex-direction: column;
+  }
+  .Camicon {
+    display: none;
+  }
+  .btn-white {
+    background-color: #1f1f2f;
+    color: #fff;
+  }
+  .btn {
+    min-width: none;
+  }
+  .btn-white {
+    width: 81vw;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .grp {
     flex-direction: column;
+  }
+  .btn-white {
+    text-align: center;
   }
 }

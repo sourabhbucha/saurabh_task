@@ -30,7 +30,7 @@ function Details() {
             </svg>
             </div>
             <p>An Entertainment Icon, Snoop Dogg has reigned for more than two decades as an unparalleled force who has raised the bar as an entertainer and globally recognized innovator. Snoop defines entertainment history. An award-winning entertainer, Snoop Dogg has released 19 studio albums, sold over 40-million albums worldwide, reached No. 1 countless times on Billboard charts internationally and received 20 GRAMMY® nominations. <a className="blue">read more</a></p>
-            <a href="" className="btn-edit">EDIT ABOUT SECTION</a>
+            <a href="" className="btn-edit" id="3">EDIT ABOUT SECTION</a>
         </div>
     )
 }

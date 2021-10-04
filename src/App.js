@@ -6,6 +6,7 @@ import "./App.css";
 // import ReactModal from "./components/ReusableComponents/ReactModal";
 import { BrowserRouter as Router } from "react-router-dom";
 import Profile from "./components/Component/Profile";
+import Viewer from "./components/Component/Viewer";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -25,7 +26,8 @@ function App() {
     <div className="App">
       <Router>
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Profile loginModal={loginModal} createAccModal={createAccModal} />
+        {/* <Profile loginModal={loginModal} createAccModal={createAccModal} /> */}
+        <Viewer loginModal={loginModal} createAccModal={createAccModal} />
         {/* <ReactModal
           body={
             <LoginSignup

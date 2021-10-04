@@ -5,8 +5,8 @@ function Clip() {
     return (
         <div className="clip">
         <div className="grid-icons">
-            <a href="" className="btn1">PUT FOR AUCTION</a>
-            <a href="" className="btn2">EDIT</a>
+            <a href="" className="btn1 trade" id="trade">PUT FOR AUCTION</a>
+            <a href="" className="btn2 view" id="view">EDIT</a>
         </div>
         </div>
     )
@@ -19,14 +19,10 @@ function Cart() {
             <h1 className="title">Ankit’s Inventory</h1>
             <div className="group">
             <input type="text" className="search" placeholder="Search" />
-            <p className="sort">
-                <p className="sort-text">FilterBy</p> 
-            <svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0L4 4L8 0H0Z" fill="#383838"/>
-            </svg>
-
-            </p>
-            <a className="Upload" onClick = {() => {
+            <select className="sort">
+                <option value="C++">Newest</option>
+            </select>
+            <a className="Upload" id="4" onClick = {() => {
                 document.getElementById('Upload-page-id').style.cssText = 'display: block;';
                 document.body.style.overflowY = 'hidden';
             }}>
