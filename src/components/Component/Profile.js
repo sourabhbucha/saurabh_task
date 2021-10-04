@@ -4,6 +4,7 @@ import Details from "./Details";
 import Navbar from "./Navbar";
 import "./Profile.css";
 import ProfileInfo from "./ProfileInfo";
+import Upload from "./Upload";
 
 function Profile(loginModal, createAccModal ) {
     const [showPage, setShowPage] = useState(true);
@@ -20,6 +21,7 @@ function Profile(loginModal, createAccModal ) {
             <Details />
             <Cart />
             </div>
+            <Upload />
         </div>
     )
 }

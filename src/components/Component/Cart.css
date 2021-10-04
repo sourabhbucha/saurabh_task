@@ -88,6 +88,7 @@
   background-color: #d82666;
   height: 39px;
   gap: 5px;
+  cursor: pointer;
 }
 
 .clip {
