@@ -26,8 +26,8 @@ function App() {
     <div className="App">
       <Router>
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Profile loginModal={loginModal} createAccModal={createAccModal} />
-        {/* <Viewer loginModal={loginModal} createAccModal={createAccModal} /> */}
+        {/* <Profile loginModal={loginModal} createAccModal={createAccModal} /> */}
+        <Viewer loginModal={loginModal} createAccModal={createAccModal} />
         {/* <ReactModal
           body={
             <LoginSignup
