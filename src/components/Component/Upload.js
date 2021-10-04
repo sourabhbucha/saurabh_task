@@ -30,7 +30,7 @@ function Upload() {
                 <div className="upload-grid-2">
                     <input type="text" placeholder="Name Your Design" />
                     <select>
-                        <option value="C++">Category</option>
+                        <option value="C++">Edition</option>
                     </select>
                     <select>
                         <option value="C++">Category</option>
