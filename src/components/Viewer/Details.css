@@ -1,0 +1,56 @@
+.Details {
+  max-width: 85vw;
+  padding-right: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.flex-view {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-view > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+
+.icon {
+  background-color: #2a7af2;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.Details > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  color: #383838;
+  margin-bottom: 5vh;
+}
+
+.btn-edit {
+  text-decoration: none;
+  padding: 10px 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #1f1f2f;
+  border-radius: 4px;
+}
+
+.blue {
+  color: #2a7af2;
+}

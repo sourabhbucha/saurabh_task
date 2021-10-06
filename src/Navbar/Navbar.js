@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import obtainr from "../../assets/ObtainR.svg";
-import hamburger from "../../assets/hamburger.png";
-import closeMenu from "../../assets/Vector.png";
+import obtainr from "../assets/ObtainR.svg";
+import hamburger from "../assets/hamburger.png";
+import closeMenu from "../assets/Vector.png";
 import { Link } from "react-router-dom";
 const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
   const [menu, setMenu] = useState(false);
