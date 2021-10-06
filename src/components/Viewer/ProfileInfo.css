@@ -1,0 +1,187 @@
+.ProfileInfo {
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  background: url("background.png"), rgba(0, 0, 0, 0.69);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.btn-white {
+  height: min-content;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  justify-content: end;
+  color: #1f1f2f;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.Camicon {
+  margin: 10px 1vw auto auto;
+  margin-bottom: 10vh;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-share {
+  background-color: #373755;
+  text-decoration: none;
+  width: min-content;
+  height: min-content;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: -35px;
+  margin-left: auto;
+  margin-right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex-profile {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+
+.ProfileDetail {
+  width: max(300px, min-content);
+  padding-right: 10px;
+  height: 140px;
+  background-color: #1f1f2f;
+  margin-left: max(70px, 6vw);
+  margin-top: auto;
+  margin-bottom: 10px;
+  display: flex;
+  border: 1px solid #5f5f85;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.ProfilePic {
+  width: 145px;
+  height: 140px;
+  background-color: #1f1f2f;
+  border: 1px solid #5f5f85;
+  margin-top: -1px;
+  margin-bottom: 0;
+  margin-left: -70px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+.info {
+  margin-left: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.des {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 0rem;
+  color: #c0c0c0;
+}
+.btn-grid {
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  height: min-content;
+  min-width: max-content;
+  padding: 10px;
+  background-color: #2a7af2;
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  justify-content: end;
+  border-radius: 4px;
+}
+
+.grp {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.text-blue{
+  color: #2A7AF2;
+}
+
+@media only screen and (max-width: 700px) {
+  .ProfileInfo {
+    background: none;
+  }
+  .flex-profile {
+    flex-direction: column;
+  }
+  .Camicon {
+    display: none;
+  }
+  .btn-white {
+    background-color: #1f1f2f;
+    color: #fff;
+  }
+  .btn {
+    min-width: none;
+  }
+  .btn-white {
+    width: 81vw;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .grp {
+    flex-direction: column;
+  }
+  .btn-white {
+    text-align: center;
+  }
+}

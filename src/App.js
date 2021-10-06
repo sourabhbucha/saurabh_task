@@ -4,9 +4,10 @@ import "./App.css";
 // import LoginSignup from "./components/auth/LoginSignup";
 // import Home from "./components/home/Home";
 // import ReactModal from "./components/ReusableComponents/ReactModal";
+import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
-import Profile from "./components/Component/Profile";
-import Viewer from "./components/Component/Viewer";
+import Profile from "./components/UserProfile/Profile";
+import Viewer from "./components/Viewer/Viewer";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -22,12 +23,19 @@ function App() {
     setIsLogin(true);
   };
 
+  const [showPage, setShowPage] = useState(true);
   return (
     <div className="App">
       <Router>
+        <Navbar
+                setShowPage={setShowPage}
+                showPage={showPage}
+                loginModal={loginModal}
+                createAccModal={createAccModal}
+            />
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        {/* <Profile loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Viewer loginModal={loginModal} createAccModal={createAccModal} />
+        {/* <Profile /> */}
+        <Viewer />
         {/* <ReactModal
           body={
             <LoginSignup
