@@ -11,7 +11,8 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
     setMenu(!menu);
     setShowPage(!showPage);
   };
-  return (
+  return(
+
     <nav className="navbar">
       <Link to="/">
         <img src={obtainr} alt="logo" className="navbar-logo" />
