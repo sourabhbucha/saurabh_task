@@ -8,6 +8,7 @@ import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Profile from "./components/UserProfile/Profile";
 import Viewer from "./components/Viewer/Viewer";
+import OfferPopUp from "./components/NewOffer/OfferPopUp";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -36,6 +37,7 @@ function App() {
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
         {/* <Profile /> */}
         <Viewer />
+        <OfferPopUp />
         {/* <ReactModal
           body={
             <LoginSignup
