@@ -9,7 +9,7 @@ function Profile() {
     return (
         <div className="Profile">
             <ProfileInfo />
-            <div className="grid">
+            <div className="grid-profile">
             <Details />
             <Cart />
             </div>

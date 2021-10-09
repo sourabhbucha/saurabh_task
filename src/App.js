@@ -37,11 +37,11 @@ function App() {
                 createAccModal={createAccModal}
             />
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        {/* <Profile /> */}
+        <Profile />
         {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
-        <TradePage />
+        {/* <TradePage /> */}
         {/* <ReactModal
           body={
             <LoginSignup
