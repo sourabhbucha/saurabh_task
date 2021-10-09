@@ -1,15 +1,16 @@
 import { useState } from "react";
 import "./App.css";
-// import CreateAccount from "./components/auth/CreateAccount";
-// import LoginSignup from "./components/auth/LoginSignup";
-// import Home from "./components/home/Home";
-// import ReactModal from "./components/ReusableComponents/ReactModal";
+import CreateAccount from "./components/auth/CreateAccount";
+import LoginSignup from "./components/auth/LoginSignup";
+import Home from "./components/home/Home";
+import ReactModal from "./components/ReusableComponents/ReactModal";
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Profile from "./components/UserProfile/Profile";
 import Viewer from "./components/Viewer/Viewer";
 import OfferPopUp from "./components/NewOffer/OfferPopUp";
 import FriendsNotifications from "./components/FriendsNotification/FriendsNotifications";
+import TradePage from "./components/TradePage/TradePage";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -38,8 +39,9 @@ function App() {
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
         {/* <Profile /> */}
         {/* <Viewer /> */}
+        {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
-        <FriendsNotifications />
+        <TradePage />
         {/* <ReactModal
           body={
             <LoginSignup
