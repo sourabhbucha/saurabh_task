@@ -50,8 +50,8 @@ function View(props) {
                         </div>
                     </div>
                     <div className="popup-btn-viewer">
-                        <p className="btn-dark">OFFER TRADE</p>
-                        <p className= {props.isOnline ? 'btn-blue' : 'Offline btn-blue'}>LIVE TRADE REQUEST</p>
+                        <p className="btn-dark-viewer">OFFER TRADE</p>
+                        <p className= {props.isOnline ? 'btn-blue-viewer ' : 'Offline btn-blue-viewer'}>LIVE TRADE REQUEST</p>
                         <a className="online-status">
                             <svg width="7" height="7" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="3.5" cy="3.5" r="3.5" fill={props.isOnline ? "#3DCE25" : '#CE4E25'}/>

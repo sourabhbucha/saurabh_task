@@ -131,6 +131,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 14px;
+  margin: auto;
 }
 
 .btn-blue-viewer {
@@ -146,6 +147,7 @@
   cursor: pointer;
   background: #2a7af2;
   min-width: max-content;
+  text-align: center;
 }
 
 .Offline {
@@ -166,6 +168,8 @@
   cursor: pointer;
   background: #383838;
   min-width: max-content;
+  text-align: center;
+  text-justify: center;
 }
 
 .online-status {
