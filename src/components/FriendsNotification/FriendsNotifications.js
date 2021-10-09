@@ -84,7 +84,7 @@ function FriendsNotifications() {
                     <Friend />
                     <Friend />
                 </div>
-                <div className="bottom-view-nav">
+                <div className="bottom-req-nav">
                     <a href="" className="friend-nav">First</a>
                     <a href="" className="friend-nav">{'<'}</a>
                     <a href="" className="friend-nav">1</a>
@@ -105,7 +105,7 @@ function FriendsNotifications() {
                     <NotificationMsg />
                     <NotificationMsg />
                     <NotificationMsg />
-                    <div className="bottom-view-nav">
+                    <div className="bottom-noti-nav">
                         <a href="" className="friend-nav">First</a>
                         <a href="" className="friend-nav">{'<'}</a>
                         <a href="" className="friend-nav">1</a>
@@ -118,7 +118,7 @@ function FriendsNotifications() {
                     <div className="friendRequest">
                         <div className="flex-friendRequest">
                             <h1 className="title">Friend Requests</h1>
-                            <div className="group">
+                            <div className="group" id="Search-sort-friends">
                                 <input type="text" className="search" placeholder="Search by name" />
                                 <select className="sort">
                                     <option value="C++">Newest</option>
@@ -135,7 +135,7 @@ function FriendsNotifications() {
                             <FriendRequest />
                         </div>
 
-                        <div className="bottom-view-nav">
+                        <div className="bottom-noti-nav">
                             <a href="" className="friend-nav">First</a>
                             <a href="" className="friend-nav">{'<'}</a>
                             <a href="" className="friend-nav">1</a>
@@ -146,6 +146,9 @@ function FriendsNotifications() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="Bottomgap">
+                
             </div>
         </div>
     )
