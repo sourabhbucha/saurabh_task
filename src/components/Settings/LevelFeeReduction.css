@@ -1,0 +1,93 @@
+.Levelling {
+  width: 90%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+  margin: auto;
+  padding-top: 50px;
+}
+.Levelling > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+  margin-bottom: 50px;
+}
+
+.levellingFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.levellingFlex > a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #1f1f2f;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.levellingFlex > p {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 180%;
+  color: #383838;
+}
+.levellingFlex > p > span {
+  color: #2a7af2;
+}
+
+.AuctionFeeRedux {
+  width: 90%;
+  padding-top: 70px;
+  padding-bottom: 140px;
+  margin: auto;
+}
+.AuctionFeeRedux > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+  margin-bottom: 50px;
+}
+
+.AuctionFeeReduxFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.AuctionFeeReduxFlex > a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #1f1f2f;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.AuctionFeeReduxFlex > p {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 180%;
+  color: #383838;
+}
+.AuctionFeeReduxFlex > p > span {
+  color: #d82666;
+}

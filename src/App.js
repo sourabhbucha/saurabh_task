@@ -11,6 +11,7 @@ import Viewer from "./components/Viewer/Viewer";
 import OfferPopUp from "./components/NewOffer/OfferPopUp";
 import FriendsNotifications from "./components/FriendsNotification/FriendsNotifications";
 import TradePage from "./components/TradePage/TradePage";
+import Settings from "./components/Settings/Settings";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -37,11 +38,12 @@ function App() {
                 createAccModal={createAccModal}
             />
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Profile />
+        {/* <Profile /> */}
         {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
         {/* <TradePage /> */}
+        <Settings />
         {/* <ReactModal
           body={
             <LoginSignup

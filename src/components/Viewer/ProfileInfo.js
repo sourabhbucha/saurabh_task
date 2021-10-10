@@ -30,7 +30,7 @@ function ProfileInfo() {
                 </div>
             </div>
             <div className="grp">
-                <a href="" className="btn-white text-blue">YOUR LEVEL: 6</a>
+                <a href="" className="btn-white">YOUR LEVEL: 6</a>
             </div>
             </div>
         </div>

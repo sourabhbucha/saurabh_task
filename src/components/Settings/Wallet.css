@@ -1,0 +1,341 @@
+.PayHome {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+.YourWallet {
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+}
+.YourWallet > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+.YourWalletInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  width: 452px;
+  /* height: 245px; */
+  height: max-content;
+  background: linear-gradient(106.37deg, #1f1f2f 0%, #282852 100%);
+  border-radius: 27px;
+}
+.YourWalletInfo > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #cfcfcf;
+  margin-bottom: 0;
+}
+.YourWalletInfo > h2 {
+  margin-top: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.YourWalletInfo > h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #cfcfcf;
+  margin: 55px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.YourWalletInfo > h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  color: #41dc88;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.AddFunds {
+  width: 100%;
+  padding-bottom: 140px;
+}
+.AddFunds > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+.AddFunds > p {
+  padding-top: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f5f5f;
+  padding-bottom: 15px;
+}
+
+.AddfundsFlexBtns {
+  border: 1px solid #c1c1c5;
+  box-sizing: border-box;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 25px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.AddfundsFlexBtns > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1f1f2f;
+}
+.AddfundsFlexBtns-iconsFlex {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.Paypal {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+.paypalinfo {
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+}
+.paypalinfo > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #1f1f2f;
+}
+.paypalFlex {
+  display: flex;
+  gap: 50px;
+}
+.paypalFlexinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.paypalFlexinfo > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+}
+.paypalFlexinfo > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+  padding: 8px 15px;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.paypalFlexAmt {
+  display: flex;
+  flex-direction: column;
+}
+
+.paypalFlexAmt > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+}
+.paypalFlexAmt > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 15px;
+  background: #383838;
+  border-radius: 6px;
+  border: none;
+}
+.paypal-btn-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+.paypal-btn-grey {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #707070;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 8px 40px;
+}
+.paypal-btn-white {
+  padding: 8px 20px 8px 40px;
+  background: #ececec;
+  border-radius: 6px;
+}
+
+.Card {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.Card > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #1f1f2f;
+}
+.cardInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.CardFlexinfo > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+}
+.CardFlexinfo > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+  padding: 8px 15px;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.CardDateFlex {
+  display: flex;
+  gap: 10px;
+}
+.CardDateFlex > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+  padding: 8px 15px;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 40%;
+}
+.CardFlexinfoSelect {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+  padding: 8px 15px;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.CardFlexinfo-dark > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383838;
+}
+.CardFlexinfo-dark > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 15px;
+  width: 75%;
+  background: #f5f5f5;
+  background: #383838;
+  border-radius: 6px;
+  border: none;
+}
+.BillInfo {
+  padding-top: 50px;
+}
+.BillInfoBorder {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+}
+.Card-btn-blue {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2a7af2;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 8px 40px;
+}
