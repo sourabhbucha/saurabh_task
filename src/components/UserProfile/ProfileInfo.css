@@ -150,9 +150,17 @@
   padding-bottom: 10px;
   padding-right: 20px;
 }
+#text-blue {
+  color: #2a7af2;
+}
 
-.text-blue{
-  color: #2A7AF2;
+@media only screen and (max-width: 1300px) {
+  .grp {
+    flex-direction: column;
+  }
+  .btn-white {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -165,23 +173,15 @@
   .Camicon {
     display: none;
   }
+  #text-blue {
+    color: #fff;
+  }
   .btn-white {
     background-color: #1f1f2f;
     color: #fff;
+    width: 81vw;
   }
   .btn {
     min-width: none;
-  }
-  .btn-white {
-    width: 81vw;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .grp {
-    flex-direction: column;
-  }
-  .btn-white {
-    text-align: center;
   }
 }

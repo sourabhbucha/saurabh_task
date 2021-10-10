@@ -106,6 +106,10 @@ function MsgGrid(){
                 <MsgRec />
                 <MsgRec />
                 <MsgSend />
+                <MsgSend />
+                <MsgSend />
+                <MsgSend />
+                <MsgSend />
                 </div>
             <input type="text" className="type-msg" placeholder="Type your message..." />
             </div>

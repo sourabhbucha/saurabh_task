@@ -32,7 +32,7 @@ function ProfileInfo() {
             <div className="grp">
                 <a href="" className="btn-white" id="1">NEXT LEVEL UNLOCKED AFTER 100 TRADING</a>
                 <a href="" className="btn-white" id="2">AUCTION FEE REDUCED BY 6%</a>
-                <a href="" className="btn-white text-blue">YOUR LEVEL: 6</a>
+                <a href="" className="btn-white" id="text-blue">YOUR LEVEL: 6</a>
             </div>
             </div>
         </div>

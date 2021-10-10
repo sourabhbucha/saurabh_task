@@ -1,0 +1,199 @@
+.SettingsAccount {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+.contactInfo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+}
+.contactInfo > h1 {
+  grid-column: 1 / span 2;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+.Contact-Info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.Contact-Info-grid-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.Contact-Info-grid-input > h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #383838;
+  margin-bottom: 0;
+}
+.Contact-Info-grid-input > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px;
+  color: #383838;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 85%;
+  /* margin: auto; */
+}
+.Contact-Info-grid-input > select {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px;
+  height: 40px;
+  color: #383838;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 85%;
+}
+
+.Contact-Info-grid-input-wide {
+  grid-column: 1 / span 2;
+}
+.Contact-Info-grid-input-wide > input {
+  width: 92.5%;
+}
+.contactInfo-avtar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactInfo-avtar > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #383838;
+}
+.contactInfo-avtar-img {
+  background: #1f1f2f;
+  border: 1px solid #5f5f85;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 141px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactInfo-avtar-btn-flex {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.contactInfo-avtar-btn-blue {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #2a7af2;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.contactInfo-avtar-btn-dark {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  background: #373755;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.AboutYou {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(31, 31, 47, 0.28);
+  margin-bottom: 30px;
+}
+.AboutYou > h1 {
+  grid-column: 1 / span 2;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+.AboutYou > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 180%;
+  color: #383838;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 15px 25px;
+}
+
+.SocialMedia {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.SocialMedia > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f2f;
+}
+.SocialMedia-Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.SocialMedia-Grid > input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #737373;
+  padding: 5px;
+  color: #383838;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 90%;
+}
