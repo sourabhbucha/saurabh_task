@@ -6,6 +6,7 @@
   top: 0;
   background: rgba(0, 0, 0, 0.81);
   overflow-y: auto;
+  z-index: 99;
 }
 
 .offer-popup {
@@ -128,7 +129,7 @@
 .offerview-flex {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 .offerview-flex > h1 {
   font-family: Poppins;
@@ -223,5 +224,43 @@ input.offerCheckBox {
     font-weight: normal;
     font-size: 15px;
     line-height: 22px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .offer-popup {
+    width: 95vw;
+  }
+  .OfferGrid > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .OfferGrid > p {
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .popup-btn-offer {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn-white-offer {
+    padding: 13px 10px;
+    margin-top: 0;
+  }
+
+  .btn-dark-offer {
+    padding: 13px 10px;
+    margin-bottom: 0;
+  }
+  input.offerCheckBox {
+    width: 16px;
+    height: 16px;
+  }
+
+  .checkbox {
+    font-size: 12px;
+    line-height: 27px;
   }
 }

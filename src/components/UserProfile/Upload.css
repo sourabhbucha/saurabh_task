@@ -45,6 +45,7 @@
   line-height: 45px;
   color: #1f1f2f;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .upload-grid-1 > p {
@@ -176,5 +177,30 @@
 @media only screen and (max-width: 600px) {
   .upload-grid-2 > input {
     grid-column: 1 / span 2;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .upload-grid-2 > input,
+  .upload-grid-2 > select {
+    grid-column: 1 / span 2;
+  }
+  .dropbox {
+    margin: auto;
+    width: 80vw;
+    min-height: 30vh;
+    max-width: 550px;
+    margin-top: 5vh;
+  }
+  .dropbox > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .popup-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    max-height: min-content;
   }
 }

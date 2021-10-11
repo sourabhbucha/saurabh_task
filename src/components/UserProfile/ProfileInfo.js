@@ -23,7 +23,7 @@ function ProfileInfo() {
                 </a>
                     <h1 className ="Name">Ankit Panda</h1>
                     <p className ="des">Member since 2021</p>
-                    <div className="btn-grid">
+                    <div className="btn-grid info-btn-grid">
                         <a href="" className="btn" id="msg">SETTINGS</a>
                         <a href="" className="btn">ADD FRIEND</a>
                     </div>
