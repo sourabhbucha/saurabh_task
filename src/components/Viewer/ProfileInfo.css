@@ -72,7 +72,7 @@
   height: 140px;
   background-color: #1f1f2f;
   margin-left: max(70px, 6vw);
-  margin-top: auto;
+  margin-top: 50px;
   margin-bottom: 10px;
   display: flex;
   border: 1px solid #5f5f85;
@@ -109,9 +109,11 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .des {
+  margin-top: 0;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -121,6 +123,8 @@
   color: #c0c0c0;
 }
 .btn-grid {
+  margin-top: auto;
+  margin-bottom: 10px;
   display: flex;
   gap: 5px;
 }
@@ -151,8 +155,8 @@
   padding-right: 20px;
 }
 
-.text-blue{
-  color: #2A7AF2;
+.text-blue {
+  color: #2a7af2;
 }
 
 @media only screen and (max-width: 700px) {
@@ -183,5 +187,32 @@
   }
   .btn-white {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .ProfileDetail {
+    height: 130px;
+  }
+  .ProfilePic {
+    width: 135px;
+    height: 130px;
+  }
+  .info {
+    margin-left: 5px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Name {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 3px;
+  }
+  .info-btn-grid {
+    margin-top: 0;
+    flex-direction: column;
   }
 }
