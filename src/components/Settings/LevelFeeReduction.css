@@ -1,3 +1,6 @@
+.LevelFeeReduction {
+  width: 85vw;
+}
 .Levelling {
   width: 90%;
   padding-bottom: 30px;
@@ -33,6 +36,7 @@
   background: #1f1f2f;
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 0;
 }
 .levellingFlex > p {
   font-family: Poppins;
@@ -41,6 +45,7 @@
   font-size: 15px;
   line-height: 180%;
   color: #383838;
+  margin-bottom: 0;
 }
 .levellingFlex > p > span {
   color: #2a7af2;
@@ -79,6 +84,7 @@
   background: #1f1f2f;
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 0;
 }
 .AuctionFeeReduxFlex > p {
   font-family: Poppins;
@@ -87,7 +93,18 @@
   font-size: 15px;
   line-height: 180%;
   color: #383838;
+  margin-top: 0;
 }
 .AuctionFeeReduxFlex > p > span {
   color: #d82666;
+}
+@media only screen and (max-width: 1200px) {
+  .AuctionFeeReduxFlex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .levellingFlex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

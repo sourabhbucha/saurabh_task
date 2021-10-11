@@ -23,7 +23,6 @@
   flex-direction: column;
   padding: 10px 20px;
   width: 452px;
-  /* height: 245px; */
   height: max-content;
   background: linear-gradient(106.37deg, #1f1f2f 0%, #282852 100%);
   border-radius: 27px;
@@ -117,6 +116,10 @@
   color: #1f1f2f;
 }
 .AddfundsFlexBtns-iconsFlex {
+  margin-left: auto;
+  margin-right: 0;
+}
+.AddfundsFlexBtns-iconsFlex-card {
   margin-left: auto;
   margin-right: 0;
 }
@@ -338,4 +341,64 @@
   border-radius: 6px;
   text-decoration: none;
   padding: 8px 40px;
+}
+@media only screen and (max-width: 1000px) {
+  .AddfundsFlexBtns-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .AddfundsFlexBtns-iconsFlex-card {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .cardInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .CardFlexinfo > input {
+    width: 90%;
+  }
+  .paypalFlex {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .AddfundsFlexBtns {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .AddfundsFlexBtns-iconsFlex-card {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .YourWalletInfo {
+    width: 70vw;
+    max-width: 350px;
+  }
+  .YourWalletInfo > h1 {
+    font-size: 2vh;
+    line-height: 2.5vh;
+  }
+  .YourWalletInfo > h2 {
+    font-size: 3.5vh;
+    line-height: 4vh;
+  }
+  .YourWalletInfo > h3 {
+    font-size: 2vh;
+    line-height: 2.5vh;
+  }
+  .YourWalletInfo > h4 {
+    font-size: 4.5vh;
+    line-height: 5vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .card-btn-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }

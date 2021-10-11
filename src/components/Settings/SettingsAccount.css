@@ -136,14 +136,11 @@
 
 .AboutYou {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 300px;
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(31, 31, 47, 0.28);
   margin-bottom: 30px;
 }
 .AboutYou > h1 {
-  grid-column: 1 / span 2;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -163,6 +160,8 @@
   box-sizing: border-box;
   border-radius: 6px;
   padding: 15px 25px;
+  width: 80%;
+  min-width: 350px;
 }
 
 .SocialMedia {
@@ -196,4 +195,80 @@
   box-sizing: border-box;
   border-radius: 6px;
   width: 90%;
+}
+@media only screen and (max-width: 1200px) {
+  .contactInfo {
+    grid-template-columns: auto auto;
+  }
+  .Contact-Info-grid {
+    grid-row: 3/4;
+    grid-column: 1 / span 2;
+  }
+  .contactInfo-avtar {
+    grid-row: 2/3;
+  }
+  .AboutYou > p {
+    width: 90%;
+    min-width: none;
+  }
+  .SocialMedia-Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .contactInfo {
+    grid-template-columns: auto;
+  }
+  .contactInfo > h1 {
+    grid-column: 1/2;
+    text-align: center;
+  }
+  .Contact-Info-grid {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-row: 3/4;
+  }
+
+  .contactInfo-avtar {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .AboutYou > p {
+    text-align: center;
+    min-width: 80vw;
+  }
+  .AboutYou > h1 {
+    text-align: center;
+    width: 100%;
+    min-width: none;
+  }
+  .Contact-Info-grid-input-wide {
+    grid-column: 1 / 2;
+    width: 100%;
+  }
+  .Contact-Info-grid-input > input {
+    width: 100%;
+  }
+  .Contact-Info-grid-input > select {
+    width: 100%;
+  }
+  .contactInfo-avtar-img {
+    width: 50vw;
+    height: auto;
+  }
+  .SocialMedia-Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .SocialMedia > h1 {
+    text-align: center;
+  }
+  .SocialMedia-Grid > input {
+    width: 100%;
+  }
 }
