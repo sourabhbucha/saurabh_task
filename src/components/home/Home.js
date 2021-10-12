@@ -140,7 +140,7 @@ const Home = ({ setIsOpen, loginModal, createAccModal }) => {
         )}
         {showPage ? null : (
           <div className="main-mobileView">
-            <section
+            {/* <section
               style={{
                 backgroundColor: "#33334E",
                 borderRadius: "6px",
@@ -170,19 +170,16 @@ const Home = ({ setIsOpen, loginModal, createAccModal }) => {
                   fontFamily: "Poppins",
                   fontWeight: "400",
                 }}
-              />
-            </section>
+              /> 
+            </section>*/}
 
-            <MobileMenu
-              mobileMenuIcon={tradeDesignM}
-              menuTitle="Trade Designs"
-            />
+            {/* <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" /> */}
 
-            <MobileMenu mobileMenuIcon={AuctionM} menuTitle="Auction" />
+            {/* <MobileMenu mobileMenuIcon={AuctionM} menuTitle="Auction" /> */}
 
-            <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" />
+            {/* <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" /> */}
 
-            <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Chat Room" />
+            {/* <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Chat Room" /> */}
             <div className="navbar-btn-mobile">
               <button className="nav-btn2-mobile" onClick={() => loginModal()}>
                 Login
