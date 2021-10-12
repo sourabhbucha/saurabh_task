@@ -132,6 +132,7 @@
 }
 
 .popup-btn {
+  margin-top: auto;
   justify-content: center;
   display: flex;
   gap: 14px;

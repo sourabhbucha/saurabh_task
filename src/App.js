@@ -12,6 +12,7 @@ import OfferPopUp from "./components/NewOffer/OfferPopUp";
 import FriendsNotifications from "./components/FriendsNotification/FriendsNotifications";
 import TradePage from "./components/TradePage/TradePage";
 import Settings from "./components/Settings/Settings";
+import ViewDesign from "./components/ViewDesign/ViewDesign";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -31,20 +32,21 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar
-                setShowPage={setShowPage}
-                showPage={showPage}
-                loginModal={loginModal}
-                createAccModal={createAccModal}
-            />
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Profile />
+        <Navbar
+          setShowPage={setShowPage}
+          showPage={showPage}
+          loginModal={loginModal}
+          createAccModal={createAccModal}
+        />
+        <ViewDesign />
+        {/* <Profile /> */}
         {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
         {/* <TradePage /> */}
         {/* <Settings /> */}
-        {/* <ReactModal
+        <ReactModal 
           body={
             <LoginSignup
               setIsOpen={setIsOpen}
@@ -60,7 +62,7 @@ function App() {
           body={<CreateAccount setIsOpen1={setIsOpen1} />}
           setIsOpen={setIsOpen1}
           modalIsOpen={modalIsOpen1}
-        /> */}
+        />
       </Router>
     </div>
   );
