@@ -45,7 +45,6 @@ function FirstLogin() {
                     <Clip />
                     <Clip />
                     <Clip />
-                    <Clip />
                 </div>    
                 <div className="FirstLoginbottom-cart-nav">
                     <a href="" className="FirstLogincart-nav">First</a>
@@ -62,7 +61,6 @@ function FirstLogin() {
                     <Clip />
                     <Clip />
                     <Clip />
-                    <Clip />
                 </div>    
                 <div className="FirstLoginbottom-cart-nav">
                     <a href="" className="FirstLogincart-nav">First</a>
@@ -75,7 +73,6 @@ function FirstLogin() {
                 </div>    
                 <h1>Trade with People who are Now online!</h1>
                 <div className="FirstLoginGrid-grid">
-                    <Clip />
                     <Clip />
                     <Clip />
                     <Clip />
