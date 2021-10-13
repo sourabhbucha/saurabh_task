@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 999;
 }
 .navbar-content {
   display: flex;
@@ -299,5 +300,6 @@
     background: #1f1f2f;
     display: flex;
     padding-right: 5vw;
+    z-index: 999;
   }
 }
