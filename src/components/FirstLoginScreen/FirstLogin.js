@@ -8,8 +8,8 @@ function Clip() {
         <div className="clipFirst">
             <div className="FirstLoginclip">
                 <div className="FirstLogingrid-icons">
-                    <a href="" className="FirstLoginbtn1" id="trade">PUT FOR AUCTION</a>
-                    <a href="" className="FirstLoginbtn2" id="view">EDIT</a>
+                    <a href="" className="FirstLoginbtn1" id="trade">OFFER TRADE</a>
+                    <a href="" className="FirstLoginbtn2" id="view">FULL VIEW</a>
                 </div>
             </div>
             <div className="FirstLoginclip-user">
