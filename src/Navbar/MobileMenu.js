@@ -14,7 +14,7 @@ const MobileMenu = ({ mobileMenuIcon, menuTitle }) => {
         alt="searchIcon"
         height="19px"
         width="20px"
-        style={{ padding: "0px 10px" }}
+        style={{ padding: "0px 10px 0px 20px" }}
       />
       <h1
         style={{

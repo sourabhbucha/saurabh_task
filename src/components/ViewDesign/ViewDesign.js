@@ -96,6 +96,8 @@ function ViewDesign() {
                     </div>
                 </div>
             </div>
+            <div className="bottom-area">
+            </div>
         </div>
     )
 }

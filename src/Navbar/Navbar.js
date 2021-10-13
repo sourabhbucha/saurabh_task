@@ -70,11 +70,28 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
         </div>
       </div>
       <div className="navbar-mobileMenu1">
-        {menu ? (
-          <img src={closeMenu} alt="logo" height="24px" width="auto" className="closebtnNav" onClick={() => showMobileMenu()} />
+        {/* {menu ? (
+          <div className="CloseLogo">
+            <Link to="/" className="navbar-logo11-mobileView">
+              <img src={obtainr} alt="logo" className="navbar-logo-img-close" />
+            </Link>
+            <img src={closeMenu} alt="logo" height="24px" width="auto" className="closebtnNav" onClick={() => showMobileMenu()} />
+          </div>
         ) : (
           <img src={hamburger} alt="logo" height="24px" width="auto" onClick={() => showMobileMenu()} />
-        )}
+        )} */}
+        <div className="CloseLogo">
+          <Link to="/" className="navbar-logo11-mobileView">
+            <img src={obtainr} alt="logo" className="navbar-logo-img-close" />
+          </Link>
+          {/* <img src={closeMenu} alt="logo" height="24px" width="auto" className="closebtnNav" onClick={() => showMobileMenu()} /> */}
+          <div id="menuToggle" className="closebtnNav" onClick={() => showMobileMenu()} >
+            <input type="checkbox" />
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+        </div>
         {showPage ? null : (
           <div className="main-mobileView1">
             <section className="searchbar-mobile-view">
@@ -92,9 +109,7 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
               /> 
             </section>
 
-            <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" />
-
-            <MobileMenu mobileMenuIcon={AuctionM} menuTitle="Auction" />
+            <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" className="options-mobile-view" />
 
             <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" />
 
