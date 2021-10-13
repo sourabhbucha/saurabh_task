@@ -8,8 +8,8 @@ function Clip() {
         <div className="clipFirst">
             <div className="FirstLoginclip">
                 <div className="FirstLogingrid-icons">
-                    <a href="" className="FirstLoginbtn1" id="trade">PUT FOR AUCTION</a>
-                    <a href="" className="FirstLoginbtn2" id="view">EDIT</a>
+                    <a href="" className="FirstLoginbtn1" id="trade">OFFER TRADE</a>
+                    <a href="" className="FirstLoginbtn2" id="view">FULL VIEW</a>
                 </div>
             </div>
             <div className="FirstLoginclip-user">
@@ -34,7 +34,7 @@ function FirstLogin() {
                         <path d="M7.12493 14.25C3.19672 14.25 0 11.054 0 7.125C0 3.19675 3.19672 0 7.12493 0C11.0539 0 14.2499 3.19675 14.2499 7.125C14.2499 11.054 11.0539 14.25 7.12493 14.25ZM7.12493 1.58333C4.06912 1.58333 1.58332 4.06917 1.58332 7.125C1.58332 10.1808 4.06912 12.6667 7.12493 12.6667C10.1807 12.6667 12.6665 10.1808 12.6665 7.125C12.6665 4.06917 10.1807 1.58333 7.12493 1.58333ZM18.2081 19C18.0055 19 17.8028 18.9224 17.6484 18.768L11.3152 12.4347C11.0056 12.1252 11.0056 11.6248 11.3152 11.3153C11.6247 11.0058 12.125 11.0058 12.4346 11.3153L18.7678 17.6486C19.0774 17.9582 19.0774 18.4585 18.7678 18.768C18.6135 18.9224 18.4108 19 18.2081 19Z" fill="#8585A1"/>
                     </svg>
                     <input type="text" className="GlobeAreaSearchBox-input"  placeholder="Search by username, category"/>
-                    <h1 className="GlobeAreaSearchBox-text">Enter username, category</h1>
+                    {/* <h1 className="GlobeAreaSearchBox-text">Enter username, category</h1> */}
                 </section>
                 <img src={FirstPage} alt="" />
             </div>
