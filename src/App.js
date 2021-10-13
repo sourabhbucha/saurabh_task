@@ -13,6 +13,8 @@ import FriendsNotifications from "./components/FriendsNotification/FriendsNotifi
 import TradePage from "./components/TradePage/TradePage";
 import Settings from "./components/Settings/Settings";
 import ViewDesign from "./components/ViewDesign/ViewDesign";
+import FirstLogin from "./components/FirstLoginScreen/FirstLogin";
+import AlertTrade from "./components/AlertTrade/AlertTrade";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -39,7 +41,9 @@ function App() {
           loginModal={loginModal}
           createAccModal={createAccModal}
         />
-        <ViewDesign />
+        <AlertTrade />
+        <FirstLogin />
+        {/* <ViewDesign /> */}
         {/* <Profile /> */}
         {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
