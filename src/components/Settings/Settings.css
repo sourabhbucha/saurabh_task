@@ -1,3 +1,8 @@
+.settings-complete-page {
+  background: #edeff3;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 .Settings-page {
   max-width: 1400px;
   margin: auto;
@@ -53,8 +58,8 @@
 
 #Active1 {
   font-weight: 500;
-  color: #2a7af2;
-  background: #dfecff;
+  color: #ffffff;
+  background: #297bf3;
   border-radius: 49px;
 }
 .Settings-content {
