@@ -13,7 +13,7 @@ import Wallet from './Wallet';
 
 function Settings() {
     return (
-        <div>
+        <div className="settings-complete-page">
             <Router>
             <div className="Settings-page">
                 <div className="SettingsTitle">

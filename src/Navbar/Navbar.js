@@ -1,22 +1,40 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import obtainr from "../assets/ObtainR.svg";
-import hamburger from "../assets/hamburger.png";
-import closeMenu from "../assets/Vector.png";
 import { Link } from "react-router-dom";
 import searchIcon from "../assets/searchIcon.png";
 import MobileMenu from "./MobileMenu";
 import tradeDesignM from "../assets/tradeDesignM.png";
-import AuctionM from "../assets/auctionM.png";
 import RewardsM from "../assets/RewardsM.png";
 import ChatRoomM from "../assets/chatRoomM.png";
+import user from "../assets/user.png";
 
 const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
   const [menu, setMenu] = useState(false);
+  const [float, setfloat] = useState(false);
+  const [float1, setfloat1] = useState(false);
 
   const showMobileMenu = () => {
     setMenu(!menu);
     setShowPage(!showPage);
+  };
+  const SetFloatVisisble = () => {
+    if(float){
+      document.getElementById("floatMenu").style.display = "none"
+    }
+    else{
+      document.getElementById("floatMenu").style.display = "flex"
+    }
+    setfloat(!float)
+  };
+  const SetFloatVisisble1 = () => {
+    if(float1){
+      document.getElementById("floatMenu1").style.display = "none"
+    }
+    else{
+      document.getElementById("floatMenu1").style.display = "flex"
+    }
+    setfloat1(!float1)
   };
   return(
     <nav className="navbar1">
@@ -63,10 +81,16 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
           <button className="nav-btn13">
             Log Out
           </button>
-            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.5278 14.2008C15.0179 14.2008 17.0364 12.1822 17.0364 9.69218C17.0364 7.20213 15.0179 5.18354 12.5278 5.18354C10.0378 5.18354 8.01917 7.20213 8.01917 9.69218C8.01917 12.1822 10.0378 14.2008 12.5278 14.2008Z" fill="#2A7AF2"/>
               <path d="M12.5 0C5.61555 0 0 5.58855 0 12.5C0 19.4114 5.61555 25 12.5 25C19.3844 25 25 19.3845 25 12.5C25 5.61555 19.3844 0 12.5 0ZM19.8434 20.3834C18.9255 17.9266 16.9276 15.3078 12.5 15.3078C8.09935 15.3078 6.07451 17.9266 5.15659 20.3834C3.05076 18.4125 1.70086 15.6048 1.70086 12.5C1.70086 6.56048 6.53348 1.70086 12.5 1.70086C18.4665 1.70086 23.2991 6.53348 23.2991 12.5C23.2991 15.6048 21.9492 18.4125 19.8434 20.3834Z" fill="#2A7AF2"/>
-            </svg>
+            </svg> */}
+            <img src={user} alt="" width="40" height="40" className="UserImg" onClick={SetFloatVisisble} />
+        </div>
+        <div className="floatMenu" id="floatMenu">
+          <a href="">Profile</a>
+          <a href="">Notifications</a>
+          <a href="">Settings</a>
         </div>
       </div>
       <div className="navbar-mobileMenu1">
@@ -118,14 +142,13 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
               <button className="nav-btn2-mobile">
                 Log Out
               </button>
-              <button className="nav-btn1-mobile">
-                Profile
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12.5278 14.2008C15.0179 14.2008 17.0364 12.1822 17.0364 9.69218C17.0364 7.20213 15.0179 5.18354 12.5278 5.18354C10.0378 5.18354 8.01917 7.20213 8.01917 9.69218C8.01917 12.1822 10.0378 14.2008 12.5278 14.2008Z" fill="white"/>
-                  <path d="M12.5 0C5.61555 0 0 5.58855 0 12.5C0 19.4114 5.61555 25 12.5 25C19.3844 25 25 19.3845 25 12.5C25 5.61555 19.3844 0 12.5 0ZM19.8434 20.3834C18.9255 17.9266 16.9276 15.3078 12.5 15.3078C8.09935 15.3078 6.07451 17.9266 5.15659 20.3834C3.05076 18.4125 1.70086 15.6048 1.70086 12.5C1.70086 6.56048 6.53348 1.70086 12.5 1.70086C18.4665 1.70086 23.2991 6.53348 23.2991 12.5C23.2991 15.6048 21.9492 18.4125 19.8434 20.3834Z" fill="white"/>
-                </svg>
-              </button>
+              <img src={user} alt="" width="40" height="40" onClick={SetFloatVisisble1} />
             </div>
+            <div className="floatMenu1" id="floatMenu1">
+          <a href="">Profile</a>
+          <a href="">Notifications</a>
+          <a href="">Settings</a>
+        </div>
           </div>
         )}
       </div>

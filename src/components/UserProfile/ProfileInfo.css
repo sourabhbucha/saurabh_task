@@ -31,11 +31,12 @@
 }
 
 .Camicon {
-  margin: 10px 1vw auto auto;
+  margin: 20px auto auto 1vw;
   margin-bottom: 10vh;
   font-size: 22px;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .btn-share {

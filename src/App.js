@@ -35,21 +35,16 @@ function App() {
     <div className="App">
       <Router>
         {/* <Home loginModal={loginModal} createAccModal={createAccModal} /> */}
-        <Navbar
-          setShowPage={setShowPage}
-          showPage={showPage}
-          loginModal={loginModal}
-          createAccModal={createAccModal}
-        />
-        <AlertTrade />
-        <FirstLogin />
+        <Navbar setShowPage={setShowPage}  showPage={showPage}  loginModal={loginModal}  createAccModal={createAccModal}  />
+        {/* <AlertTrade /> */}
+        {/* <FirstLogin /> */}
         {/* <ViewDesign /> */}
         {/* <Profile /> */}
         {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
         {/* <TradePage /> */}
-        {/* <Settings /> */}
+        <Settings />
         <ReactModal 
           body={
             <LoginSignup

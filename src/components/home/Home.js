@@ -91,20 +91,20 @@ const Home = ({ setIsOpen, loginModal, createAccModal }) => {
                 <Properties
                   icon={designAuction}
                   imageName="designAuction"
-                  title="Design Auction"
-                  subTitle="The best design auction site out there!"
+                  title="Refer And Earn"
+                  subTitle="Refer to a friend and get free trade tokens!"
                 />
                 <Properties
                   icon={levelAccount}
                   imageName="levelAccount"
-                  title="Level Your Account!"
-                  subTitle="Level your account and get reduced auction fees."
+                  title="Verified Community"
+                  subTitle="Join our verified community and trade with them!"
                 />
                 <Properties
                   icon={earnReward}
                   imageName="rearnReward"
-                  title="Earn Rewards!"
-                  subTitle="Earn rewards by participating in auction!"
+                  title="Fast And Easy"
+                  subTitle="Trade your designs in seconds and grow your inventory!"
                 />
               </section>
             </div>
@@ -121,26 +121,26 @@ const Home = ({ setIsOpen, loginModal, createAccModal }) => {
             <Properties
               icon={designAuction}
               imageName="designAuction"
-              title="Design Auction"
-              subTitle="The best design auction site out there!"
+              title="Refer And Earn"
+              subTitle="Refer to a friend and get free trade tokens!"
             />
             <Properties
               icon={levelAccount}
               imageName="levelAccount"
-              title="Level Your Account!"
-              subTitle="Level your account and get reduced auction fees."
+              title="Verified Community"
+              subTitle="Join our verified community and trade with them!"
             />
             <Properties
               icon={earnReward}
               imageName="rearnReward"
-              title="Earn Rewards!"
-              subTitle="Earn rewards by participating in auction!"
+              title="Fast And Easy"
+              subTitle="Trade your designs in seconds and grow your inventory!"
             />
           </section>
         )}
         {showPage ? null : (
           <div className="main-mobileView">
-            {/* <section
+            <section
               style={{
                 backgroundColor: "#33334E",
                 borderRadius: "6px",
@@ -171,15 +171,15 @@ const Home = ({ setIsOpen, loginModal, createAccModal }) => {
                   fontWeight: "400",
                 }}
               /> 
-            </section>*/}
+            </section>
 
-            {/* <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" /> */}
+            <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" />
 
-            {/* <MobileMenu mobileMenuIcon={AuctionM} menuTitle="Auction" /> */}
+            <MobileMenu mobileMenuIcon={AuctionM} menuTitle="Auction" />
 
-            {/* <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" /> */}
+            <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" />
 
-            {/* <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Chat Room" /> */}
+            <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Chat Room" />
             <div className="navbar-btn-mobile">
               <button className="nav-btn2-mobile" onClick={() => loginModal()}>
                 Login
