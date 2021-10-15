@@ -12,7 +12,7 @@ function Pricing() {
                         <hr />
                         <p>A very quick way to trade! Buy as many token as you like at a very low cost of 1$ a token! </p>
                         <a href="">BUY NOW</a>
-                        <h2><span className="PriceSpan">1</span>$ / token</h2>
+                        <h2>1$ = token</h2>
                     </div>
                     <div className="Pricing1 Pricing2">
                         <h1>Refer & Earn Tokens.</h1>
@@ -26,14 +26,14 @@ function Pricing() {
                             COPY LINK
                         </a>
                         <h3>Send the link and after their first trade, you will have your free tokens!</h3>
-                        <h2><span className="PriceSpan2">1 refer </span>/5 token</h2>
+                        <h2>1 refer = 5 token</h2>
                     </div>
                     <div className="Pricing1 Pricing3">
                         <h1>20 Token Topup</h1>
                         <hr />
                         <p>Grab your 20 token bundle at a very low price. Trade as much as you want and start collecting! Don’t miss out! </p>
                         <a href="">BUY NOW</a>
-                        <h2><span className="PriceSpan ">13</span>$ / 20 token</h2>
+                        <h2>13$ = 20 token</h2>
                     </div>
                 </div>
 
