@@ -133,11 +133,12 @@ const Navbar = ({ createAccModal, loginModal, setShowPage, showPage }) => {
               /> 
             </section>
 
-            <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade Designs" className="options-mobile-view" />
+            <MobileMenu  mobileMenuIcon={tradeDesignM}  menuTitle="Trade" className="options-mobile-view" />
 
-            <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Rewards" />
+            <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Friends" />
 
-            <MobileMenu mobileMenuIcon={ChatRoomM} menuTitle="Chat Room" />
+            <MobileMenu mobileMenuIcon={RewardsM} menuTitle="Pricing" />
+
             <div className="navbar-btn-mobile">
               <button className="nav-btn2-mobile">
                 Log Out
