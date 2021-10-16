@@ -1,0 +1,47 @@
+.Edit-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.81);
+  overflow-y: auto;
+  display: none;
+}
+.edit-popup {
+  width: 85vw;
+  left: 50%;
+  top: 12vh;
+  transform: translate(-50%, 0);
+  padding: 3vh 3vw;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6vw;
+  max-width: 550px;
+}
+.upload-grid-2 > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1f1f2f;
+  grid-column: 1/3;
+}
+.text-white-delete {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1f1f2f;
+}
+@media only screen and (max-width: 750px) {
+  .upload-grid-2 > h1 {
+    text-align: center;
+  }
+}

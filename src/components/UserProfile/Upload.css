@@ -26,7 +26,7 @@
 
 .close-btn {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 30px;
   cursor: pointer;
 }
@@ -134,8 +134,11 @@
 .popup-btn {
   margin-top: auto;
   justify-content: center;
+  align-items: center;
   display: flex;
   gap: 14px;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .btn-blue {
@@ -173,6 +176,7 @@
   }
   .popup-btn {
     grid-column: 1 / span 2;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 600px) {
