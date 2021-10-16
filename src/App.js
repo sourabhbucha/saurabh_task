@@ -41,11 +41,11 @@ function App() {
         {/* <FirstLogin /> */}
         {/* <ViewDesign /> */}
         {/* <Profile /> */}
-        {/* <Viewer /> */}
+        <Viewer />
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
         {/* <TradePage /> */}
-        <Pricing/>
+        {/* <Pricing/> */}
         {/* <Settings /> */}
         <ReactModal 
           body={
