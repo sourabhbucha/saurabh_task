@@ -273,3 +273,28 @@
     text-align: start;
   }
 }
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(5, 5, 5, 0.8);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.img-viewer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}

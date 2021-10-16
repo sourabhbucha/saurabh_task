@@ -25,20 +25,77 @@ function View(props) {
                                 </select>
                             </div>
                         </div> 
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
-                            <div className="img-viewer"></div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            <div className="img-viewer">
+                                <div class="middle">
+                                    <div class="text">Offer</div>
+                                </div>
+                            </div>
+                            
                         <div className="bottom-view-nav">
                             <a href="" className="cart-nav">First</a>
                             <a href="" className="cart-nav">{'<'}</a>
