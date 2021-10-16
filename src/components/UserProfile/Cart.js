@@ -1,12 +1,17 @@
 import React from 'react'
 import './Cart.css'
+import EditDesign from './EditDesign'
 
 function Clip() {
     return (
         <div className="clip">
         <div className="grid-icons">
             <a href="" className="btn1 trade" id="trade">PUT FOR AUCTION</a>
-            <a href="" className="btn2 view" id="view">EDIT</a>
+            <a className="btn2 view" id="view" onClick = {() => {
+                document.getElementById('Edit-page-id').style.cssText = 'display: block;';
+                document.body.style.overflowY = 'hidden';
+            }}>EDIT</a>
+            <EditDesign />
         </div>
         </div>
     )

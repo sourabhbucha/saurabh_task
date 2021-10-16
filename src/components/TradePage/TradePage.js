@@ -11,16 +11,52 @@ function BagGrid(){
                     <option>Level</option>
                 </select>
             </div>
-
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
+            
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Offer</div>
+                </div>
+            </div>
 
             <div className="Bag-bottom-view-nav">
                 <a href="" className="Bag-cart-nav">First</a>
@@ -142,20 +178,78 @@ function ClientBagGrid(){
                     <option>Level</option>
                 </select>
             </div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
-            <div className="Bag-img-viewer"></div>
+
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            <div className="Bag-img-viewer">
+                <div class="middle">
+                    <div class="text">Request</div>
+                </div>
+            </div>
+            
 
             <div className="CLient-Bag-bottom-view-nav">
                 <a href="" className="Bag-cart-nav">First</a>
