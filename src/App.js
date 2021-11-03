@@ -16,6 +16,7 @@ import ViewDesign from "./components/ViewDesign/ViewDesign";
 import FirstLogin from "./components/FirstLoginScreen/FirstLogin";
 import AlertTrade from "./components/AlertTrade/AlertTrade";
 import Pricing from "./components/Pricing/Pricing";
+import Agreement from "./Agreement Page/Agreement";
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [modalIsOpen1, setIsOpen1] = useState(false);
@@ -40,13 +41,15 @@ function App() {
         {/* <AlertTrade /> */}
         {/* <FirstLogin /> */}
         {/* <ViewDesign /> */}
-        {/* <Profile /> */}
-        <Viewer />
+        <Agreement />
+        <Profile />
+        {/* <Viewer /> */}
         {/* <FriendsNotifications /> */}
         {/* <OfferPopUp /> */}
         {/* <TradePage /> */}
         {/* <Pricing/> */}
         {/* <Settings /> */}
+
         <ReactModal 
           body={
             <LoginSignup

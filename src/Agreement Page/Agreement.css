@@ -1,0 +1,199 @@
+.Agreement {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.81);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  z-index: 9999;
+}
+.agg-gap-below {
+  min-height: 100px;
+}
+.grid-btn-agg {
+  display: flex;
+  gap: 10px;
+  width: 90vw;
+  max-width: 800px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grid-btn-agg > a {
+  padding: 10px 17px;
+  /* background: #fbb230; */
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.yellow {
+  background: #fbb230;
+}
+.white {
+  background: #ffffff;
+}
+.agg-content-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 90vw;
+  max-width: 800px;
+  border-radius: 5px;
+}
+.agg-title {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  background: #efefef;
+}
+.agg-title > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.agg-title > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2a7af2;
+}
+.agg-title > p > span {
+  font-weight: normal;
+}
+.agg-content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.agg-content > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 200%;
+  color: #444444;
+}
+.agg-content > p > span {
+  font-weight: bolder;
+}
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.sign-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.signarea {
+  background: #cbe0ff;
+  border: 1px solid #8eabd6;
+  box-sizing: border-box;
+  width: 251px;
+  height: 90px;
+}
+.sign-terms {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: auto;
+  margin-bottom: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5c7395;
+  margin-top: 54px;
+}
+.signa > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5c7395;
+}
+.agg-bottom {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  border-top: 1px solid #dbdbdb;
+}
+.agg-bottom > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 180%;
+  color: #1f1f2f;
+  text-align: center;
+}
+.agg-bottom-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: max-content;
+}
+.agg-bottom-flex > a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 8px 30px;
+  border-radius: 3px;
+  text-align: center;
+}
+.grey {
+  background: #1f1f2f;
+}
+.blue {
+  background: #2a7af2;
+}
+@media only screen and (max-width: 710px) {
+  .sign-flex {
+    flex-direction: column;
+  }
+  .sign-terms {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .grid-btn-agg {
+    flex-direction: column-reverse;
+  }
+  .grid-btn-agg > a {
+    text-align: center;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .agg-bottom-flex {
+    grid-template-columns: auto;
+  }
+}
