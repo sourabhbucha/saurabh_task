@@ -120,19 +120,34 @@
   margin-bottom: 0;
   font-family: Poppins;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   color: #5c7395;
   margin-top: 54px;
 }
-.signa > p {
+.bottomtext-agg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.bottomtext-agg > p {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 16px;
   color: #5c7395;
+}
+.bottomtext-agg > a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  cursor: pointer;
 }
 .agg-bottom {
   padding: 25px 50px;

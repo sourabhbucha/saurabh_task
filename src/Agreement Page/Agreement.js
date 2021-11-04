@@ -3,6 +3,7 @@ import './Agreement.css'
 import SignatureCanvas from 'react-signature-canvas'
 function Agreement() {
     document.body.style.overflowY="hidden";
+    var signPad = React.createRef();
     return (
         <div className="Agreement">
             <div className="grid-btn-agg">
@@ -25,9 +26,15 @@ function Agreement() {
                             <div className="signa">
                                 <div className="signarea">
                                     <SignatureCanvas penColor='black'
-                                        canvasProps={{width: 250, height: 90, className: 'sigCanvas'}} />
+                                        canvasProps={{width: 250, height: 90, className: 'sigCanvas'}}
+                                        ref={(ref) => { signPad = ref }} />
                                 </div>
+                                <div className="bottomtext-agg">
                                 <p>Sign here</p>
+                                <a onClick={()=>{
+                                    signPad.clear();
+                                }}>Reset</a>
+                                </div>
                             </div>
                             <div className="sign-terms">
                                 <input type="checkbox" />I agree on transferring my design
